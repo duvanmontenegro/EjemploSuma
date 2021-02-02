@@ -17,8 +17,8 @@ namespace CapacitacionForms
             //TODO: Daniel, Implementar IoC con unity
             var tipoSumaAdmitida = LeerConfigureIni(); 
 
-            Application.Run(new FrmSuma(tipoSumaAdmitida == "POSITIVOS" ?
-                new SumaPositivos() : new Suma()));
+            //Application.Run(new FrmSuma(tipoSumaAdmitida == "POSITIVOS" ? new SumaPositivos() : new Suma()));
+            Application.Run(new FrmSuma(new Suma()));
         }
 
         public static string LeerConfigureIni() => "POSITVOS";
