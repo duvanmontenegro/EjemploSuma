@@ -19,6 +19,7 @@ namespace CapacitacionForms
 
             //Application.Run(new FrmSuma(tipoSumaAdmitida == "POSITIVOS" ? new SumaPositivos() : new Suma()));
             Application.Run(new FrmSuma(new Suma()));
+            //Application.Run(new FrmSuma(new SumaPositivos()));
         }
 
         public static string LeerConfigureIni() => "POSITVOS";
