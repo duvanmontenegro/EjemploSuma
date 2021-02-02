@@ -47,39 +47,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Excepciones\BaseException.cs" />
-    <Compile Include="Division\FrmDivision.cs">
+    <Compile Include="FrmSuma.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Division\FrmDivision.Designer.cs">
-      <DependentUpon>FrmDivision.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Operaciones\FrmOperaciones.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Operaciones\FrmOperaciones.Designer.cs">
-      <DependentUpon>FrmOperaciones.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Suma\FrmSuma.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Suma\FrmSuma.Designer.cs">
+    <Compile Include="FrmSuma.Designer.cs">
       <DependentUpon>FrmSuma.cs</DependentUpon>
     </Compile>
-    <Compile Include="Division\Division.cs" />
-    <Compile Include="Operaciones\OperacionMatematica.cs" />
-    <Compile Include="Division\IDivision.cs" />
-    <Compile Include="Operaciones\IOperacionMatematica.cs" />
-    <Compile Include="Suma\ISuma.cs" />
+    <Compile Include="Operaciones\ISuma.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Suma\Suma.cs" />
-    <EmbeddedResource Include="Division\FrmDivision.resx">
-      <DependentUpon>FrmDivision.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Operaciones\FrmOperaciones.resx">
-      <DependentUpon>FrmOperaciones.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Suma\FrmSuma.resx">
+    <Compile Include="Operaciones\Suma.cs" />
+    <EmbeddedResource Include="FrmSuma.resx">
       <DependentUpon>FrmSuma.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
