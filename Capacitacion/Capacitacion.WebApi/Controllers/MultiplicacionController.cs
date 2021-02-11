@@ -1,4 +1,4 @@
-﻿using Capacitacion.Core.Multiplicación;
+﻿using Capacitacion.Core.Operaciones.Multiplicación;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 namespace Capacitacion.WebApi.Controllers

@@ -1,5 +1,4 @@
-﻿using System;
-namespace Capacitacion.Core.Restas
+﻿namespace Capacitacion.Core.Operaciones.Restas
 {
     public interface IResta
     {

@@ -1,4 +1,4 @@
-﻿using Capacitacion.Core.Suma;
+﻿using Capacitacion.Core.Operaciones.Sumas;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Xunit;

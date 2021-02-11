@@ -1,6 +1,7 @@
-﻿using Capacitacion.Core.Multiplicación;
-using Capacitacion.Core.Restas;
-using Capacitacion.Core.Suma;
+﻿using Capacitacion.Core.Operaciones.Divisiones;
+using Capacitacion.Core.Operaciones.Multiplicación;
+using Capacitacion.Core.Operaciones.Restas;
+using Capacitacion.Core.Operaciones.Sumas;
 using Capacitacion.Infraestructura.Transversal.GenericClass;
 using System.Net.Http;
 

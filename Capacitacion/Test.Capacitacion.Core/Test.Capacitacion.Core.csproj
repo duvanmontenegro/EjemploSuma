@@ -5,6 +5,7 @@
     <IsPackable>false</IsPackable>
     <Configurations>Debug</Configurations>
     <LangVersion>latest</LangVersion>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

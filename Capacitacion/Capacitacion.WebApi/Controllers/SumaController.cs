@@ -1,5 +1,4 @@
-﻿using Capacitacion.Core.Suma;
-using Capacitacion.Core.Sumas;
+﻿using Capacitacion.Core.Operaciones.Sumas;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -10,14 +9,14 @@ namespace Capacitacion.WebApi.Controllers
     public class SumaController : ControllerBase
     {
         private readonly ILogger<SumaController> _logger;
-        private readonly ISuma _sumaSvc;
+        private readonly ISumaIntegral _sumaSvc;
 
-        public SumaController(ILogger<SumaController> logger, ISuma sumaSvc)
+        public SumaController(ILogger<SumaController> logger, ISumaIntegral sumaSvc)
         {
             _logger = logger;
             _sumaSvc = sumaSvc;
 
-            _logger.LogInformation($"Controlador de suma opera { (sumaSvc is SumaEnteros ? "ENTEROS" : "DECIMALES")}");
+            _logger.LogInformation($"Controlador de suma opera { (_sumaSvc is SumaRedondeada ? "ENTEROS" : "DECIMALES")}");
         }
 
         [HttpPost("Sumar")]

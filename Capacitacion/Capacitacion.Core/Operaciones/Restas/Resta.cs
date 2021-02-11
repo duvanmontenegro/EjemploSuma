@@ -1,5 +1,4 @@
-﻿using Capacitacion.Core.Operaciones;
-namespace Capacitacion.Core.Restas
+﻿namespace Capacitacion.Core.Operaciones.Restas
 {
     public class Resta : OperacionMatematica, IResta
     {

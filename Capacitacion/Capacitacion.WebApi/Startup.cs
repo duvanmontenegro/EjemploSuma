@@ -1,7 +1,4 @@
-using Capacitacion.Core.Divisiones;
-using Capacitacion.Core.Multiplicación;
-using Capacitacion.Core.Restas;
-using Capacitacion.Core.Sumas;
+using Capacitacion.Core.Operaciones.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -31,18 +28,7 @@ namespace Capacitacion.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-
-            var tipoSumaAdmitida = Configuration.GetSection("ConfiguracionSuma").Get<string>();
-
-            if (tipoSumaAdmitida == "ENTEROS")
-                services.AddTransient<ISuma, SumaEnteros>();
-            else
-                services.AddTransient<ISuma, Suma>();
-                
-            services.AddTransient<ISuma, Suma>();
-            services.AddTransient<IResta, Resta>();
-            services.AddTransient<IDivision, Division>();
-            services.AddTransient<IMultiplicacion, Multiplicacion>();
+            services.ConfigureOperacionesService(Configuration.GetSection("ConfiguracionSuma").Get<string>());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

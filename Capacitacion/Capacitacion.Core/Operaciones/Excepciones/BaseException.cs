@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace CapacitacionForms.Core.Excepciones
+namespace Capacitacion.Core.Operaciones.Excepciones
 {
     public class BaseException : Exception
     {

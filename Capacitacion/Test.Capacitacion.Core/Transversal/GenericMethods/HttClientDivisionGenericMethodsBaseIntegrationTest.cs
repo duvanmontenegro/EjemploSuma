@@ -1,4 +1,4 @@
-﻿using Capacitacion.Core.Suma;
+﻿using Capacitacion.Core.Operaciones.Divisiones;
 using Capacitacion.Infraestructura.Transversal.GenericMethods;
 using System.Net.Http;
 using System.Threading.Tasks;

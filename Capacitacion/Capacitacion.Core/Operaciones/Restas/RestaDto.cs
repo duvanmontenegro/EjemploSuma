@@ -1,6 +1,4 @@
-﻿using Capacitacion.Core.Suma;
-
-namespace Capacitacion.Core.Restas
+﻿namespace Capacitacion.Core.Operaciones.Restas
 {
     public class RestaDto : OperacionDto
     {

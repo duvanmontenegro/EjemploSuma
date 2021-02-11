@@ -1,4 +1,4 @@
-﻿using Capacitacion.Core.Suma;
+﻿using Capacitacion.Core.Operaciones;
 using Capacitacion.Infraestructura.Transversal.Exceptions;
 using Newtonsoft.Json;
 using System;

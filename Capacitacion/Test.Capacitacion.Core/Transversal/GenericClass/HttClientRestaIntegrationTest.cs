@@ -1,4 +1,4 @@
-﻿using Capacitacion.Core.Restas;
+﻿using Capacitacion.Core.Operaciones.Restas;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Xunit;

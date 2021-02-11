@@ -1,6 +1,4 @@
-﻿using Capacitacion.Core.Operaciones;
-
-namespace Capacitacion.Core.Sumas
+﻿namespace Capacitacion.Core.Operaciones.Sumas
 {
     public class Suma : OperacionMatematica, ISuma
     {

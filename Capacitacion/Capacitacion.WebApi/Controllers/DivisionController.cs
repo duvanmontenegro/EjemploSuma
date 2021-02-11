@@ -1,5 +1,4 @@
-﻿using Capacitacion.Core.Divisiones;
-using Capacitacion.Core.Suma;
+﻿using Capacitacion.Core.Operaciones.Divisiones;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 namespace Capacitacion.WebApi.Controllers

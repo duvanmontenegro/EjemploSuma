@@ -1,4 +1,4 @@
-﻿using Capacitacion.Core.Suma;
+﻿using Capacitacion.Core.Operaciones;
 using System.Threading.Tasks;
 
 namespace Capacitacion.Infraestructura.Transversal.GenericMethods

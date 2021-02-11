@@ -1,5 +1,5 @@
-﻿using Capacitacion.Core.Restas;
-using Capacitacion.Core.Suma;
+﻿using Capacitacion.Core.Operaciones.Restas;
+using Capacitacion.Core.Operaciones.Sumas;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 namespace Capacitacion.WebApi.Controllers

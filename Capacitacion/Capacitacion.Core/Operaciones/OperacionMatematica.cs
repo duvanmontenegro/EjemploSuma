@@ -1,9 +1,9 @@
-﻿using CapacitacionForms.Core.Excepciones;
+﻿using Capacitacion.Core.Operaciones.Excepciones;
 using System;
 
 namespace Capacitacion.Core.Operaciones
 {
-    public class OperacionMatematica : IOperacionMatematica
+    public abstract class OperacionMatematica : IOperacionMatematica
     {
         public void ValidarStringNoContienePunto(string numeroPrueba)
         {
@@ -39,14 +39,13 @@ namespace Capacitacion.Core.Operaciones
             }
         }
 
-        public String[] ObtenerPartesFraccion(string number)
+        public string[] ObtenerPartesFraccion(string number)
         {
             if (number.Contains("/"))
             {
                 return number.ToString().Split('/');
             }
-            String[] arreglo = new String[] { number, "1" };
-            return arreglo;
+            return new [] { number, "1" };
         }
     }
 }

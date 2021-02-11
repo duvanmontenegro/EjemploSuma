@@ -1,6 +1,4 @@
-﻿using Capacitacion.Core.Operaciones;
-
-namespace Capacitacion.Core.Multiplicación
+﻿namespace Capacitacion.Core.Operaciones.Multiplicación
 {
     public class Multiplicacion : OperacionMatematica, IMultiplicacion
     {
@@ -28,7 +26,7 @@ namespace Capacitacion.Core.Multiplicación
             var Numeradorfactor2 = double.Parse(segundoFactor[0]);
             var Denominadorfactor2 = double.Parse(segundoFactor[1]);
 
-            return (Numeradorfactor1 * Numeradorfactor2) / (Denominadorfactor1 * Denominadorfactor2);
+            return Numeradorfactor1 * Numeradorfactor2 / (Denominadorfactor1 * Denominadorfactor2);
         }
     }
 }

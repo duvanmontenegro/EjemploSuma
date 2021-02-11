@@ -1,7 +1,4 @@
-﻿using Capacitacion.Core.Operaciones;
-using Capacitacion.Core.Suma;
-
-namespace Capacitacion.Core.Divisiones
+﻿namespace Capacitacion.Core.Operaciones.Divisiones
 {
     public class Division : OperacionMatematica, IDivision
     {

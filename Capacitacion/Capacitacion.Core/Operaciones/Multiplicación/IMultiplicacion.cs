@@ -1,4 +1,4 @@
-﻿namespace Capacitacion.Core.Multiplicación
+﻿namespace Capacitacion.Core.Operaciones.Multiplicación
 {
     public interface IMultiplicacion
     {

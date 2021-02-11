@@ -1,4 +1,4 @@
-﻿namespace Capacitacion.Core.Suma
+﻿namespace Capacitacion.Core.Operaciones.Sumas
 {
     public class SumaDto : OperacionDto
     {
