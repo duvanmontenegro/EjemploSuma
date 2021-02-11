@@ -1,7 +1,7 @@
-﻿using CapacitacionForms.Excepciones;
+﻿using CapacitacionForms.Core.Excepciones;
 using System;
 
-namespace CapacitacionForms.Operaciones
+namespace Capacitacion.Core.Operaciones
 {
     public class OperacionMatematica : IOperacionMatematica
     {
@@ -29,14 +29,14 @@ namespace CapacitacionForms.Operaciones
 
         public void ValidarStringSoloNumeros(string valor)
         {
-           try
-           {
+            try
+            {
                 float intValor = float.Parse(valor);
             }
             catch (Exception)
-           {
+            {
                 throw new BaseException("Solo se pueden digitar números");
-           }
-       }
+            }
+        }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace CapacitacionForms.Division
+﻿namespace Capacitacion.Core.Divisiones
 {
     public interface IDivision
     {

@@ -46,12 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Excepciones\BaseException.cs" />
+    <Compile Include="Division\Division.cs" />
     <Compile Include="Division\FrmDivision.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Division\FrmDivision.Designer.cs">
       <DependentUpon>FrmDivision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Division\IDivision.cs" />
+    <Compile Include="Excepciones\BaseException.cs" />
+    <Compile Include="Multiplicacion\FrmMultiplicacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Multiplicacion\FrmMultiplicacion.Designer.cs">
+      <DependentUpon>FrmMultiplicacion.cs</DependentUpon>
     </Compile>
     <Compile Include="Operaciones\FrmOperaciones.cs">
       <SubType>Form</SubType>
@@ -59,25 +67,35 @@
     <Compile Include="Operaciones\FrmOperaciones.Designer.cs">
       <DependentUpon>FrmOperaciones.cs</DependentUpon>
     </Compile>
+    <Compile Include="Operaciones\IOperacionMatematica.cs" />
+    <Compile Include="Operaciones\OperacionMatematica.cs" />
+    <Compile Include="Resta\FrmResta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resta\FrmResta.Designer.cs">
+      <DependentUpon>FrmResta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Suma\FrmSuma.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Suma\FrmSuma.Designer.cs">
       <DependentUpon>FrmSuma.cs</DependentUpon>
     </Compile>
-    <Compile Include="Division\Division.cs" />
-    <Compile Include="Operaciones\OperacionMatematica.cs" />
-    <Compile Include="Division\IDivision.cs" />
-    <Compile Include="Operaciones\IOperacionMatematica.cs" />
-    <Compile Include="Suma\ISuma.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Suma\ISuma.cs" />
     <Compile Include="Suma\Suma.cs" />
     <EmbeddedResource Include="Division\FrmDivision.resx">
       <DependentUpon>FrmDivision.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Multiplicacion\FrmMultiplicacion.resx">
+      <DependentUpon>FrmMultiplicacion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Operaciones\FrmOperaciones.resx">
       <DependentUpon>FrmOperaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resta\FrmResta.resx">
+      <DependentUpon>FrmResta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Suma\FrmSuma.resx">
       <DependentUpon>FrmSuma.cs</DependentUpon>
@@ -91,6 +109,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

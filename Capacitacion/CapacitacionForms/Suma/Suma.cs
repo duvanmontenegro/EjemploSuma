@@ -1,8 +1,8 @@
-﻿using CapacitacionForms.Excepciones;
-using CapacitacionForms.Operaciones;
+﻿using Capacitacion.Core.Operaciones;
+using CapacitacionForms.Core.Excepciones;
 using System;
 
-namespace CapacitacionForms.Suma
+namespace Capacitacion.Core.Sumas
 {
     public class Suma : OperacionMatematica, ISuma
     {

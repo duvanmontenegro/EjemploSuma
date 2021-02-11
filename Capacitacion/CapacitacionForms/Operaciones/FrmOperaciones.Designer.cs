@@ -31,6 +31,8 @@ namespace CapacitacionForms.Operaciones
         {
             this.btnDividir = new System.Windows.Forms.Button();
             this.btnSumar = new System.Windows.Forms.Button();
+            this.btnRestar = new System.Windows.Forms.Button();
+            this.btnMultiplicar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnDividir
@@ -53,11 +55,33 @@ namespace CapacitacionForms.Operaciones
             this.btnSumar.UseVisualStyleBackColor = true;
             this.btnSumar.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnRestar
+            // 
+            this.btnRestar.Location = new System.Drawing.Point(28, 84);
+            this.btnRestar.Name = "btnRestar";
+            this.btnRestar.Size = new System.Drawing.Size(139, 43);
+            this.btnRestar.TabIndex = 2;
+            this.btnRestar.Text = "Restar";
+            this.btnRestar.UseVisualStyleBackColor = true;
+            this.btnRestar.Click += new System.EventHandler(this.btnRestar_Click);
+            // 
+            // btnMultiplicar
+            // 
+            this.btnMultiplicar.Location = new System.Drawing.Point(173, 84);
+            this.btnMultiplicar.Name = "btnMultiplicar";
+            this.btnMultiplicar.Size = new System.Drawing.Size(139, 43);
+            this.btnMultiplicar.TabIndex = 1;
+            this.btnMultiplicar.Text = "Multiplicar";
+            this.btnMultiplicar.UseVisualStyleBackColor = true;
+            this.btnMultiplicar.Click += new System.EventHandler(this.btnMultiplicar_Click);
+            // 
             // FrmOperaciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(347, 125);
+            this.ClientSize = new System.Drawing.Size(347, 151);
+            this.Controls.Add(this.btnMultiplicar);
+            this.Controls.Add(this.btnRestar);
             this.Controls.Add(this.btnDividir);
             this.Controls.Add(this.btnSumar);
             this.Name = "FrmOperaciones";
@@ -71,5 +95,7 @@ namespace CapacitacionForms.Operaciones
 
         private System.Windows.Forms.Button btnDividir;
         private System.Windows.Forms.Button btnSumar;
+        private System.Windows.Forms.Button btnRestar;
+        private System.Windows.Forms.Button btnMultiplicar;
     }
 }

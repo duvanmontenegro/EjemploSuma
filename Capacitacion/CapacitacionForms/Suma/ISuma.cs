@@ -1,4 +1,4 @@
-﻿namespace CapacitacionForms.Suma
+﻿namespace Capacitacion.Core.Sumas
 {
     public interface ISuma
     {

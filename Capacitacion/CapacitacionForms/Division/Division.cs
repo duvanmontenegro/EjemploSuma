@@ -1,7 +1,7 @@
-﻿using CapacitacionForms.Excepciones;
-using CapacitacionForms.Operaciones;
+﻿using Capacitacion.Core.Operaciones;
+using CapacitacionForms.Core.Excepciones;
 
-namespace CapacitacionForms.Division
+namespace Capacitacion.Core.Divisiones
 {
     public class Division : OperacionMatematica, IDivision
     {

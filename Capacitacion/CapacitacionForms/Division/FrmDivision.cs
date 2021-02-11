@@ -1,4 +1,5 @@
-﻿using CapacitacionForms.Excepciones;
+﻿using Capacitacion.Core.Divisiones;
+using CapacitacionForms.Core.Excepciones;
 using System;
 using System.Windows.Forms;
 
